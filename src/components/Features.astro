@@ -4,15 +4,34 @@ import Feature from "./Feature.astro";
 
 <section class="container mx-auto mt-16">
     <h2 class="text-[52px]">Key features</h2>
-    <div class="flex gap-4 mt-8">
-        <Feature image="https://via.placeholder.com/390x415.png" title="Auto Unlock" description={"The app senses when\
-            you're nearby to unlock automatically."} />
-        <Feature image="https://via.placeholder.com/390x415.png" title="Auto Unlock" description={"The app senses when\
-            you're nearby to unlock automatically."} />
-        <Feature image="https://via.placeholder.com/390x415.png" title="Auto Unlock" description={"The app senses when\
-            you're nearby to unlock automatically."} />
-        <Feature image="https://via.placeholder.com/390x415.png" title="Auto Unlock" description={"The app senses when\
-            you're nearby to unlock automatically."} />
+    <div class="flex gap-4 mt-8 pb-8 overflow-x-scroll snap-x snap-mandatory custom-scrollbar">
+        <Feature image="/assets/phone-on-bike.png" title="Auto Unlock" description={"The app senses when you're nearby\
+            to unlock automatically."} />
+        <Feature image="/assets/brakes.png" title="Hydraulic disc brakes" description={"Brakes with total stopping\
+            power the second you make contact."} />
+        <Feature image="/assets/tire.png" title="Resilient Tires" description={"All-rounder tires with flexible grip\
+            and a puncture-resistant layer."} />
+        <Feature image="/assets/bike-up.png" title="Resilient Tires" description={"All-rounder tires with flexible grip\
+            and a puncture-resistant layer."} />
 
     </div>
 </section>
+
+<style>
+    .custom-scrollbar {
+        scrollbar-color: #000000 #B7B7B7;
+        scrollbar-width: thin;
+    }
+
+    .custom-scrollbar::-webkit-scrollbar {
+        height: 1px;
+    }
+
+    .custom-scrollbar::-webkit-scrollbar-track {
+        background: #B7B7B7;
+    }
+
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+        background-color: #000000;
+    }
+</style>

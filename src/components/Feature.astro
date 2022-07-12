@@ -2,8 +2,8 @@
 const { image, title, description } = Astro.props;
 ---
 
-<div class="max-w-[400px] text-center">
+<div class="min-w-[400px] text-center snap-start">
     <img class="rounded-2xl" src={image} alt={title} loading="lazy">
-    <div class="font-medium text-xl my-2">{title}</div>
+    <div class="font-medium text-2xl my-4">{title}</div>
     <p class="mx-6">{description}</p>
 </div>
