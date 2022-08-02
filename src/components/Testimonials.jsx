@@ -1,11 +1,17 @@
 import { useState } from "preact/hooks";
 
+// assets
+import profile1 from "/assets/profiles/profile1.png";
+import profile2 from "/assets/profiles/profile2.png";
+import profile3 from "/assets/profiles/profile3.png";
+import profile4 from "/assets/profiles/profile4.png";
+
 const Testimonials = () => {
   const reviews = [
     {
       name: "Jesse Walker",
       profission: "Professional rider",
-      img: "https://via.placeholder.com/64x64.png",
+      img: profile1,
       text: `Problems with my beltchain and I discovered a sound on my
     frontwheel…the bolt on my frontwheel was almost loose so my frontwheel
     was loose and the disk of my brakes and the brake paddles Where making
@@ -14,7 +20,7 @@ const Testimonials = () => {
     {
       name: "John Doe",
       profission: "Professional rider",
-      img: "https://via.placeholder.com/64x64.png",
+      img: profile2,
       text: `Lorem Ipsum is simply dummy text of the printing and
       typesetting industry. Lorem Ipsum has been the industry's standard
       dummy text ever since the 1500s, when an unknown printer took a
@@ -24,7 +30,7 @@ const Testimonials = () => {
     {
       name: "Alexander Green",
       profission: "Regular Sport",
-      img: "https://via.placeholder.com/64x64.png",
+      img: profile3,
       text: `It is a long established fact that a reader will be distracted
       by the readable content of a page when looking at its layout.
       The point of using Lorem Ipsum is that it has a more-or-less normal
@@ -33,7 +39,7 @@ const Testimonials = () => {
     {
       name: "Alice Brian",
       profission: "Professional writer",
-      img: "https://via.placeholder.com/64x64.png",
+      img: profile4,
       text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
       eu dolor in velit ullamcorper fringilla nec at nisl. Praesent
       vulputate bibendum ligula, a finibus metus vulputate vitae.
