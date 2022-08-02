@@ -9,6 +9,9 @@ module.exports = {
       backgroundColor: {
         "black-gray": "#050505",
       },
+      fontSize: {
+        h2: "52px",
+      },
     },
   },
   plugins: [],
