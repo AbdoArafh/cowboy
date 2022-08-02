@@ -1,0 +1,33 @@
+---
+import rideAwake from "/assets/ride-awake.png";
+import appStore from "/assets/appstore.png";
+import googlePlay from "/assets/googleplay.png";
+
+---
+
+<section class="container mx-auto mt-16">
+    <h2 class="text-[52px]">Ride Awake</h2>
+    <div class="flex gap-14 my-10">
+        <p>With your phone docked in sight, your bike becomes an all-knowing companion. Connected to your every move and
+            on the lookout for what's ahead, now's your chance to wander and wonder.</p>
+        <p>Your next ride is no longer a question of if or when. Rather, where to? A swift first kick powers the speed
+            you need for an active ride and an easy climb.</p>
+    </div>
+    <div class="relative">
+        <img class="w-[100%]" src={rideAwake} alt="Ride Awake">
+        <div class="absolute bottom-0 right-0 left-0 p-16 flex justify-between items-end">
+            <div class="text-white">
+                <h3 class="text-4xl pb-4">Ride stats</h3>
+                <p>With a constant ally tuned into <br> the road, it will keep you moving <br> well informed.</p>
+            </div>
+            <div class="flex gap-4">
+                <a href="#">
+                    <img src={appStore} alt="App Store">
+                </a>
+                <a href="#">
+                    <img src={googlePlay} alt="Google Play">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
