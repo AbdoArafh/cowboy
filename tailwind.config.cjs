@@ -5,9 +5,11 @@ module.exports = {
     extend: {
       colors: {
         "black-gray": "#050505",
+        secondary: "#B7B7B7",
       },
       backgroundColor: {
         "black-gray": "#050505",
+        secondary: "#B7B7B7",
       },
       fontSize: {
         h2: "52px",

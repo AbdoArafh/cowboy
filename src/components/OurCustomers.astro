@@ -1,0 +1,15 @@
+---
+import Testimonials from "./Testimonials";
+---
+
+<section class="container mx-auto mt-16">
+    <h2 class="text-h2">Our customers speak</h2>
+
+    <Testimonials client:visible />
+</section>
+
+<style is:global>
+    .transition-width {
+        transition: width 0.5s ease;
+    }
+</style>
