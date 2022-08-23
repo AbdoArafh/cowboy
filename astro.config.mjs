@@ -7,5 +7,5 @@ import preact from "@astrojs/preact";
 export default defineConfig({
   integrations: [tailwind(), preact()],
   site: "https://abdoarafh.github.io",
-  base: "/cowboy"
+  base: "/cowboy",
 });
