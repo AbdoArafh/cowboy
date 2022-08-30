@@ -5,13 +5,13 @@
 		<meta name="viewport" content="width=device-width">
 		<link rel="icon" type="image/x-icon" href="/favicon.ico">
 		<title>Cowboy | landing page</title>
-	<link rel="stylesheet" href="/cowboy/assets/index.54499404.css" /></head>
+	<link rel="stylesheet" href="/cowboy/assets/index.4df5f443.css" /></head>
 
 	<body>
 		<nav class="bg-black text-white flex justify-between p-8">
     <div class="flex gap-8">
         <img class="w-[140px] h-[20px]" src="assets/logo.png" alt="Cowboy">
-        <ul class="flex gap-4">
+        <ul class="gap-4 hidden lg:flex">
             <li><a href="#">Overview</a></li>
             <li><a href="#">Key featuers</a></li>
             <li><a href="#">Ride awake</a></li>
@@ -22,31 +22,46 @@
     <div class="flex gap-16 items-center">
         <div>
             <div>From $1,999 <span class="line-through">$2,190</span></div>
-            <div class="text-right text-xs text-gray-400">Discounts available</div>
+            <div class="text-right text-xs text-gray-400">
+                Discounts available
+            </div>
         </div>
-        <a class="block bg-white text-black py-2 px-8 rounded-full" href="#">Order now</a>
+        <a class="hidden bg-white text-black py-2 px-8 rounded-full lg:block" href="#">Order now</a>
     </div>
-</nav><section class="hero relative bg-black-gray text-white pt-16 min-h-[90vh] flex flex-col items-center astro-CP7TI2H2">
-    <div class="text-center z-1 astro-CP7TI2H2">
-        <h2 class="text-2xl astro-CP7TI2H2">COWBOY 4</h2>
-        <h1 class="mt-8 text-[94px] font-medium leading-none astro-CP7TI2H2">Dream <br class="astro-CP7TI2H2">
-            Machine</h1>
+</nav><section class="hero relative bg-black-gray text-white pt-16 min-h-[90vh] flex flex-col items-center astro-3Z6UFN5F">
+    <div class="text-center z-1 astro-3Z6UFN5F">
+        <h2 class="text-2xl astro-3Z6UFN5F">COWBOY 4</h2>
+        <h1 class="mt-8 text-[94px] font-medium leading-none astro-3Z6UFN5F">
+            Dream <br class="astro-3Z6UFN5F">
+            Machine
+        </h1>
     </div>
-    <a class="flex items-center gap-3 mt-16 relative py-2 px-4 rounded-full overflow-hidden astro-CP7TI2H2" href="#">
-        <div class="absolute inset-0 bg-white/10 blur-sm opacity-50 astro-CP7TI2H2"></div>
-        <img src="/assets/play.svg" alt="" class="astro-CP7TI2H2">
-        <span class="astro-CP7TI2H2">Select in action</span>
+    <a class="flex items-center gap-3 mt-16 relative py-2 px-4 rounded-full overflow-hidden astro-3Z6UFN5F" href="#">
+        <div class="absolute inset-0 bg-white/10 blur-sm opacity-50 astro-3Z6UFN5F"></div>
+        <img src="/assets/play.svg" alt="" class="astro-3Z6UFN5F">
+        <span class="astro-3Z6UFN5F">Select in action</span>
     </a>
-</section><section class="mt-16 container mx-auto flex justify-between flex-wrap">
-    <div class="pt-16">
-        <h2 class="text-[68px] font-medium leading-tight">Electric bike <br> remagined</h2>
-        <p class="mt-8">Find your pace at the edge of the urban <br> frontier for a new path forward.</p>
+</section>
 
-        <div class="flex gap-4 items-center mt-16">
+<section class="mt-16 container mx-auto flex justify-between flex-col items-center lg:flex-row lg:gap-8">
+    <div class="pt-16 w-[100%] text-center lg:text-left lg:w-auto">
+        <h2 class="text-[48px] font-medium leading-tight xl:text-[68px]">
+            Electric bike <br> remagined
+        </h2>
+        <p class="mt-8">
+            Find your pace at the edge of the urban <br> frontier for a new path
+            forward.
+        </p>
+
+        <div class="flex gap-4 items-center justify-center mt-16 mb-8 lg:justify-start lg:mb-0">
             <a class="block bg-black text-white text-lg py-3 px-12 rounded-full" href="#">Order now</a>
             <div>
-                <div class="text-sm">From $1,999 <span class="line-through">$2,190</span></div>
-                <div class="text-left text-xs text-gray-400">Discounts available</div>
+                <div class="text-sm">
+                    From $1,999 <span class="line-through">$2,190</span>
+                </div>
+                <div class="text-left text-xs text-gray-400">
+                    Discounts available
+                </div>
             </div>
         </div>
     </div>
@@ -80,20 +95,29 @@
     </div>
 </section><section class="container mx-auto mt-16">
     <h2 class="text-h2">Ride Awake</h2>
-    <div class="flex gap-14 my-10">
-        <p>With your phone docked in sight, your bike becomes an all-knowing companion. Connected to your every move and
-            on the lookout for what's ahead, now's your chance to wander and wonder.</p>
-        <p>Your next ride is no longer a question of if or when. Rather, where to? A swift first kick powers the speed
-            you need for an active ride and an easy climb.</p>
+    <div class="flex gap-14 my-10 flex-col px-2 sm:flex-row sm:px-0">
+        <p>
+            With your phone docked in sight, your bike becomes an all-knowing
+            companion. Connected to your every move and on the lookout for
+            what's ahead, now's your chance to wander and wonder.
+        </p>
+        <p>
+            Your next ride is no longer a question of if or when. Rather, where
+            to? A swift first kick powers the speed you need for an active ride
+            and an easy climb.
+        </p>
     </div>
     <div class="relative">
         <img class="w-[100%]" src="/cowboy/assets/ride-awake.png" alt="Ride Awake" loading="lazy">
         <div class="absolute bottom-0 right-0 left-0 p-16 flex justify-between items-end">
-            <div class="text-white">
+            <div class="text-white hidden lg:block">
                 <h3 class="text-4xl pb-4">Ride stats</h3>
-                <p>With a constant ally tuned into <br> the road, it will keep you moving <br> well informed.</p>
+                <p>
+                    With a constant ally tuned into <br> the road, it will keep
+                    you moving <br> well informed.
+                </p>
             </div>
-            <div class="flex gap-4">
+            <div class="flex gap-4 justify-center flex-grow lg:justify-end">
                 <a href="#">
                     <img src="/cowboy/assets/appstore.png" alt="App Store" loading="lazy">
                 </a>
@@ -106,28 +130,28 @@
 </section><section class="container mx-auto mt-16">
     <h2 class="text-h2">Our customers speak</h2>
 
-    <style>astro-island,astro-slot{display:contents}</style><script>(self.Astro=self.Astro||{}).visible=(s,c,n)=>{const r=async()=>{await(await s())()};let i=new IntersectionObserver(e=>{for(const t of e)if(!!t.isIntersecting){i.disconnect(),r();break}});for(let e=0;e<n.children.length;e++){const t=n.children[e];i.observe(t)}},window.dispatchEvent(new Event("astro:visible"));var l;{const c={0:t=>t,1:t=>JSON.parse(t,o),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(JSON.parse(t,o)),5:t=>new Set(JSON.parse(t,o)),6:t=>BigInt(t),7:t=>new URL(t)},o=(t,i)=>{if(t===""||!Array.isArray(i))return i;const[e,n]=i;return e in c?c[e](n):void 0};customElements.get("astro-island")||customElements.define("astro-island",(l=class extends HTMLElement{constructor(){super(...arguments);this.hydrate=()=>{if(!this.hydrator||this.parentElement&&this.parentElement.closest("astro-island[ssr]"))return;const i=this.querySelectorAll("astro-slot"),e={},n=this.querySelectorAll("template[data-astro-template]");for(const s of n){const r=s.closest(this.tagName);!r||!r.isSameNode(this)||(e[s.getAttribute("data-astro-template")||"default"]=s.innerHTML,s.remove())}for(const s of i){const r=s.closest(this.tagName);!r||!r.isSameNode(this)||(e[s.getAttribute("name")||"default"]=s.innerHTML)}const a=this.hasAttribute("props")?JSON.parse(this.getAttribute("props"),o):{};this.hydrator(this)(this.Component,a,e,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),window.removeEventListener("astro:hydrate",this.hydrate),window.dispatchEvent(new CustomEvent("astro:hydrate"))}}connectedCallback(){!this.hasAttribute("await-children")||this.firstChild?this.childrenConnectedCallback():new MutationObserver((i,e)=>{e.disconnect(),this.childrenConnectedCallback()}).observe(this,{childList:!0})}async childrenConnectedCallback(){window.addEventListener("astro:hydrate",this.hydrate),await import(this.getAttribute("before-hydration-url")),this.start()}start(){const i=JSON.parse(this.getAttribute("opts")),e=this.getAttribute("client");if(Astro[e]===void 0){window.addEventListener(`astro:${e}`,()=>this.start(),{once:!0});return}Astro[e](async()=>{const n=this.getAttribute("renderer-url"),[a,{default:s}]=await Promise.all([import(this.getAttribute("component-url")),n?import(n):()=>()=>{}]),r=this.getAttribute("component-export")||"default";if(!r.includes("."))this.Component=a[r];else{this.Component=a;for(const d of r.split("."))this.Component=this.Component[d]}return this.hydrator=s,this.hydrate},i,this)}attributeChangedCallback(){this.hydrator&&this.hydrate()}},l.observedAttributes=["props"],l))}</script><astro-island uid="KzYYW" component-url="/cowboy/Testimonials.d014eedd.js" component-export="default" renderer-url="/cowboy/client.115698f3.js" props="{}" ssr="" client="visible" before-hydration-url="data:text/javascript;charset=utf-8,//[no before-hydration script]" opts="{&quot;name&quot;:&quot;Testimonials&quot;,&quot;value&quot;:true}" await-children=""><div class="mt-16 flex flex-col"><div class="max-w-md mx-auto flex gap-4"><div class="text-8xl font-serif -mt-2">“</div><p>Problems with my beltchain and I discovered a sound on my
+    <style>astro-island,astro-slot{display:contents}</style><script>(self.Astro=self.Astro||{}).visible=(s,c,n)=>{const r=async()=>{await(await s())()};let i=new IntersectionObserver(e=>{for(const t of e)if(!!t.isIntersecting){i.disconnect(),r();break}});for(let e=0;e<n.children.length;e++){const t=n.children[e];i.observe(t)}},window.dispatchEvent(new Event("astro:visible"));var l;{const c={0:t=>t,1:t=>JSON.parse(t,o),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(JSON.parse(t,o)),5:t=>new Set(JSON.parse(t,o)),6:t=>BigInt(t),7:t=>new URL(t)},o=(t,i)=>{if(t===""||!Array.isArray(i))return i;const[e,n]=i;return e in c?c[e](n):void 0};customElements.get("astro-island")||customElements.define("astro-island",(l=class extends HTMLElement{constructor(){super(...arguments);this.hydrate=()=>{if(!this.hydrator||this.parentElement&&this.parentElement.closest("astro-island[ssr]"))return;const i=this.querySelectorAll("astro-slot"),e={},n=this.querySelectorAll("template[data-astro-template]");for(const s of n){const r=s.closest(this.tagName);!r||!r.isSameNode(this)||(e[s.getAttribute("data-astro-template")||"default"]=s.innerHTML,s.remove())}for(const s of i){const r=s.closest(this.tagName);!r||!r.isSameNode(this)||(e[s.getAttribute("name")||"default"]=s.innerHTML)}const a=this.hasAttribute("props")?JSON.parse(this.getAttribute("props"),o):{};this.hydrator(this)(this.Component,a,e,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),window.removeEventListener("astro:hydrate",this.hydrate),window.dispatchEvent(new CustomEvent("astro:hydrate"))}}connectedCallback(){!this.hasAttribute("await-children")||this.firstChild?this.childrenConnectedCallback():new MutationObserver((i,e)=>{e.disconnect(),this.childrenConnectedCallback()}).observe(this,{childList:!0})}async childrenConnectedCallback(){window.addEventListener("astro:hydrate",this.hydrate),await import(this.getAttribute("before-hydration-url")),this.start()}start(){const i=JSON.parse(this.getAttribute("opts")),e=this.getAttribute("client");if(Astro[e]===void 0){window.addEventListener(`astro:${e}`,()=>this.start(),{once:!0});return}Astro[e](async()=>{const n=this.getAttribute("renderer-url"),[a,{default:s}]=await Promise.all([import(this.getAttribute("component-url")),n?import(n):()=>()=>{}]),r=this.getAttribute("component-export")||"default";if(!r.includes("."))this.Component=a[r];else{this.Component=a;for(const d of r.split("."))this.Component=this.Component[d]}return this.hydrator=s,this.hydrate},i,this)}attributeChangedCallback(){this.hydrator&&this.hydrate()}},l.observedAttributes=["props"],l))}</script><astro-island uid="1oBMX3" component-url="/cowboy/Testimonials.4f4c5c65.js" component-export="default" renderer-url="/cowboy/client.115698f3.js" props="{}" ssr="" client="visible" before-hydration-url="data:text/javascript;charset=utf-8,//[no before-hydration script]" opts="{&quot;name&quot;:&quot;Testimonials&quot;,&quot;value&quot;:true}" await-children=""><div class="mt-16 flex flex-col"><div class="max-w-md mx-auto flex gap-4"><div class="text-8xl font-serif -mt-2">“</div><p>Problems with my beltchain and I discovered a sound on my
     frontwheel…the bolt on my frontwheel was almost loose so my frontwheel
     was loose and the disk of my brakes and the brake paddles Where making
-    this nose…very dangerous…luckily I discovered the problem on time</p></div><div class="flex gap-8 mt-8 mx-auto"><div class="relative h-24 w-24 py-4 px-8 rounded-full overflow-hidden flex gap-4 transition-all cursor-pointer !w-auto bg-black-gray" data-index="0"><div class><img class="rounded-full block h-[100%]" src="/cowboy/assets/profiles/profile1.png" alt="Jesse Walker" /></div><div class="info flex flex-col my-auto"><span class="text-white">Jesse Walker</span><span class="text-secondary">Professional rider</span></div></div><div class="relative h-24 w-24 py-4 px-8 rounded-full overflow-hidden flex gap-4 transition-all cursor-pointer" data-index="1"><div class="absolute inset-4"><img class="rounded-full block h-[100%]" src="/cowboy/assets/profiles/profile2.png" alt="John Doe" /></div><div class="info flex flex-col my-auto opacity-0"><span class="text-white">John Doe</span><span class="text-secondary">Professional rider</span></div></div><div class="relative h-24 w-24 py-4 px-8 rounded-full overflow-hidden flex gap-4 transition-all cursor-pointer" data-index="2"><div class="absolute inset-4"><img class="rounded-full block h-[100%]" src="/cowboy/assets/profiles/profile3.png" alt="Alexander Green" /></div><div class="info flex flex-col my-auto opacity-0"><span class="text-white">Alexander Green</span><span class="text-secondary">Regular Sport</span></div></div><div class="relative h-24 w-24 py-4 px-8 rounded-full overflow-hidden flex gap-4 transition-all cursor-pointer" data-index="3"><div class="absolute inset-4"><img class="rounded-full block h-[100%]" src="/cowboy/assets/profiles/profile4.png" alt="Alice Brian" /></div><div class="info flex flex-col my-auto opacity-0"><span class="text-white">Alice Brian</span><span class="text-secondary">Professional writer</span></div></div></div></div></astro-island>
+    this nose…very dangerous…luckily I discovered the problem on time</p></div><div class="flex gap-8 mt-8 mx-auto flex-col lg:flex-row"><div class="relative h-24 w-24 py-4 px-8 rounded-full overflow-hidden flex gap-4 transition-all cursor-pointer !w-auto bg-black-gray" data-index="0"><div class><img class="rounded-full block h-[100%]" src="/cowboy/assets/profiles/profile1.png" alt="Jesse Walker" /></div><div class="info flex flex-col my-auto"><span class="text-white">Jesse Walker</span><span class="text-secondary">Professional rider</span></div></div><div class="relative h-24 w-24 py-4 px-8 rounded-full overflow-hidden flex gap-4 transition-all cursor-pointer" data-index="1"><div class="absolute inset-4"><img class="rounded-full block h-[100%]" src="/cowboy/assets/profiles/profile2.png" alt="John Doe" /></div><div class="info flex flex-col my-auto opacity-0"><span class="text-white">John Doe</span><span class="text-secondary">Professional rider</span></div></div><div class="relative h-24 w-24 py-4 px-8 rounded-full overflow-hidden flex gap-4 transition-all cursor-pointer" data-index="2"><div class="absolute inset-4"><img class="rounded-full block h-[100%]" src="/cowboy/assets/profiles/profile3.png" alt="Alexander Green" /></div><div class="info flex flex-col my-auto opacity-0"><span class="text-white">Alexander Green</span><span class="text-secondary">Regular Sport</span></div></div><div class="relative h-24 w-24 py-4 px-8 rounded-full overflow-hidden flex gap-4 transition-all cursor-pointer" data-index="3"><div class="absolute inset-4"><img class="rounded-full block h-[100%]" src="/cowboy/assets/profiles/profile4.png" alt="Alice Brian" /></div><div class="info flex flex-col my-auto opacity-0"><span class="text-white">Alice Brian</span><span class="text-secondary">Professional writer</span></div></div></div></div></astro-island>
 </section><section class="container mx-auto mt-16">
     <h2 class="text-h2">Product Details</h2>
 
-    <astro-island uid="ZDXICa" component-url="/cowboy/Accordion.1687fa9d.js" component-export="default" renderer-url="/cowboy/client.115698f3.js" props="{&quot;name&quot;:[0,&quot;Key specification&quot;],&quot;num&quot;:[0,&quot;16&quot;],&quot;open&quot;:[0,true]}" ssr="" client="visible" before-hydration-url="data:text/javascript;charset=utf-8,//[no before-hydration script]" opts="{&quot;name&quot;:&quot;Accordion&quot;,&quot;value&quot;:true}" await-children=""><div class="bg-black-gray text-white rounded-2xl my-6"><div class="px-12 py-6 flex justify-between items-center cursor-pointer hover:brightness-75 active:brightness-95"><div class="flex gap-4 items-center"><h3 class="text-xl">Key specification</h3><span class="bg-white/10 py-[8px] px-[5px] rounded-lg">16</span></div><button style="transition: transform 0.35s ease;"><img src="/cowboy/assets/chevron.svg" alt="..." /></button></div><div style="transition: height 0.35s ease;" class="px-12 overflow-hidden"><astro-slot><div class="flex astro-7WNEL2FS">
-    <div class="w-[500px] astro-7WNEL2FS"></div>
-    <table class="flex-grow astro-7WNEL2FS">
-        <tbody class="astro-7WNEL2FS">
-            <tr class="astro-7WNEL2FS">
-                <td class="astro-7WNEL2FS"> Price</td>
-                <td class="astro-7WNEL2FS"> $ 2,190</td>
+    <astro-island uid="1C4cM5" component-url="/cowboy/Accordion.1687fa9d.js" component-export="default" renderer-url="/cowboy/client.115698f3.js" props="{&quot;name&quot;:[0,&quot;Key specification&quot;],&quot;num&quot;:[0,&quot;16&quot;],&quot;open&quot;:[0,true]}" ssr="" client="visible" before-hydration-url="data:text/javascript;charset=utf-8,//[no before-hydration script]" opts="{&quot;name&quot;:&quot;Accordion&quot;,&quot;value&quot;:true}" await-children=""><div class="bg-black-gray text-white rounded-2xl my-6"><div class="px-12 py-6 flex justify-between items-center cursor-pointer hover:brightness-75 active:brightness-95"><div class="flex gap-4 items-center"><h3 class="text-xl">Key specification</h3><span class="bg-white/10 py-[8px] px-[5px] rounded-lg">16</span></div><button style="transition: transform 0.35s ease;"><img src="/cowboy/assets/chevron.svg" alt="..." /></button></div><div style="transition: height 0.35s ease;" class="px-12 overflow-hidden"><astro-slot><div class="flex astro-BS2KHENP">
+    <div class="md:w-[500px] astro-BS2KHENP"></div>
+    <table class="flex-grow astro-BS2KHENP">
+        <tbody class="astro-BS2KHENP">
+            <tr class="astro-BS2KHENP">
+                <td class="astro-BS2KHENP"> Price</td>
+                <td class="astro-BS2KHENP"> $ 2,190</td>
             </tr>
-            <tr class="astro-7WNEL2FS">
-                <td class="astro-7WNEL2FS">Colors</td>
-                <td class="astro-7WNEL2FS"> Black, Yellow, White</td>
+            <tr class="astro-BS2KHENP">
+                <td class="astro-BS2KHENP">Colors</td>
+                <td class="astro-BS2KHENP"> Black, Yellow, White</td>
             </tr>
-            <tr class="astro-7WNEL2FS">
-                <td class="astro-7WNEL2FS">About</td>
-                <td class="astro-7WNEL2FS">
+            <tr class="astro-BS2KHENP">
+                <td class="astro-BS2KHENP">About</td>
+                <td class="astro-BS2KHENP">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Rutrum consequat risus est sed nulla sed. Ultrices imperdiet
                     fringilla elit eu vitae nunc elementum sagittis.
@@ -138,21 +162,21 @@
 </div>
 
 </astro-slot></div></div></astro-island>
-    <astro-island uid="Z1PnAmV" component-url="/cowboy/Accordion.1687fa9d.js" component-export="default" renderer-url="/cowboy/client.115698f3.js" props="{&quot;name&quot;:[0,&quot;Bike&quot;],&quot;num&quot;:[0,&quot;8&quot;]}" ssr="" client="visible" before-hydration-url="data:text/javascript;charset=utf-8,//[no before-hydration script]" opts="{&quot;name&quot;:&quot;Accordion&quot;,&quot;value&quot;:true}" await-children=""><div class="bg-black-gray text-white rounded-2xl my-6"><div class="px-12 py-6 flex justify-between items-center cursor-pointer hover:brightness-75 active:brightness-95"><div class="flex gap-4 items-center"><h3 class="text-xl">Bike</h3><span class="bg-white/10 py-[8px] px-[5px] rounded-lg">8</span></div><button style="transition: transform 0.35s ease;"><img src="/cowboy/assets/chevron.svg" alt="..." /></button></div><div style="transition: height 0.35s ease;" class="px-12 overflow-hidden"><astro-slot><div class="flex astro-7WNEL2FS">
-    <div class="w-[500px] astro-7WNEL2FS"></div>
-    <table class="flex-grow astro-7WNEL2FS">
-        <tbody class="astro-7WNEL2FS">
-            <tr class="astro-7WNEL2FS">
-                <td class="astro-7WNEL2FS"> Price</td>
-                <td class="astro-7WNEL2FS"> $ 2,190</td>
+    <astro-island uid="1MNtPq" component-url="/cowboy/Accordion.1687fa9d.js" component-export="default" renderer-url="/cowboy/client.115698f3.js" props="{&quot;name&quot;:[0,&quot;Bike&quot;],&quot;num&quot;:[0,&quot;8&quot;]}" ssr="" client="visible" before-hydration-url="data:text/javascript;charset=utf-8,//[no before-hydration script]" opts="{&quot;name&quot;:&quot;Accordion&quot;,&quot;value&quot;:true}" await-children=""><div class="bg-black-gray text-white rounded-2xl my-6"><div class="px-12 py-6 flex justify-between items-center cursor-pointer hover:brightness-75 active:brightness-95"><div class="flex gap-4 items-center"><h3 class="text-xl">Bike</h3><span class="bg-white/10 py-[8px] px-[5px] rounded-lg">8</span></div><button style="transition: transform 0.35s ease;"><img src="/cowboy/assets/chevron.svg" alt="..." /></button></div><div style="transition: height 0.35s ease;" class="px-12 overflow-hidden"><astro-slot><div class="flex astro-BS2KHENP">
+    <div class="md:w-[500px] astro-BS2KHENP"></div>
+    <table class="flex-grow astro-BS2KHENP">
+        <tbody class="astro-BS2KHENP">
+            <tr class="astro-BS2KHENP">
+                <td class="astro-BS2KHENP"> Price</td>
+                <td class="astro-BS2KHENP"> $ 2,190</td>
             </tr>
-            <tr class="astro-7WNEL2FS">
-                <td class="astro-7WNEL2FS">Colors</td>
-                <td class="astro-7WNEL2FS"> Black, Yellow, White</td>
+            <tr class="astro-BS2KHENP">
+                <td class="astro-BS2KHENP">Colors</td>
+                <td class="astro-BS2KHENP"> Black, Yellow, White</td>
             </tr>
-            <tr class="astro-7WNEL2FS">
-                <td class="astro-7WNEL2FS">About</td>
-                <td class="astro-7WNEL2FS">
+            <tr class="astro-BS2KHENP">
+                <td class="astro-BS2KHENP">About</td>
+                <td class="astro-BS2KHENP">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Rutrum consequat risus est sed nulla sed. Ultrices imperdiet
                     fringilla elit eu vitae nunc elementum sagittis.
@@ -163,21 +187,21 @@
 </div>
 
 </astro-slot></div></div></astro-island>
-    <astro-island uid="Z1brl0m" component-url="/cowboy/Accordion.1687fa9d.js" component-export="default" renderer-url="/cowboy/client.115698f3.js" props="{&quot;name&quot;:[0,&quot;Electronics&quot;],&quot;num&quot;:[0,&quot;5&quot;]}" ssr="" client="visible" before-hydration-url="data:text/javascript;charset=utf-8,//[no before-hydration script]" opts="{&quot;name&quot;:&quot;Accordion&quot;,&quot;value&quot;:true}" await-children=""><div class="bg-black-gray text-white rounded-2xl my-6"><div class="px-12 py-6 flex justify-between items-center cursor-pointer hover:brightness-75 active:brightness-95"><div class="flex gap-4 items-center"><h3 class="text-xl">Electronics</h3><span class="bg-white/10 py-[8px] px-[5px] rounded-lg">5</span></div><button style="transition: transform 0.35s ease;"><img src="/cowboy/assets/chevron.svg" alt="..." /></button></div><div style="transition: height 0.35s ease;" class="px-12 overflow-hidden"><astro-slot><div class="flex astro-7WNEL2FS">
-    <div class="w-[500px] astro-7WNEL2FS"></div>
-    <table class="flex-grow astro-7WNEL2FS">
-        <tbody class="astro-7WNEL2FS">
-            <tr class="astro-7WNEL2FS">
-                <td class="astro-7WNEL2FS"> Price</td>
-                <td class="astro-7WNEL2FS"> $ 2,190</td>
+    <astro-island uid="Z1qNEki" component-url="/cowboy/Accordion.1687fa9d.js" component-export="default" renderer-url="/cowboy/client.115698f3.js" props="{&quot;name&quot;:[0,&quot;Electronics&quot;],&quot;num&quot;:[0,&quot;5&quot;]}" ssr="" client="visible" before-hydration-url="data:text/javascript;charset=utf-8,//[no before-hydration script]" opts="{&quot;name&quot;:&quot;Accordion&quot;,&quot;value&quot;:true}" await-children=""><div class="bg-black-gray text-white rounded-2xl my-6"><div class="px-12 py-6 flex justify-between items-center cursor-pointer hover:brightness-75 active:brightness-95"><div class="flex gap-4 items-center"><h3 class="text-xl">Electronics</h3><span class="bg-white/10 py-[8px] px-[5px] rounded-lg">5</span></div><button style="transition: transform 0.35s ease;"><img src="/cowboy/assets/chevron.svg" alt="..." /></button></div><div style="transition: height 0.35s ease;" class="px-12 overflow-hidden"><astro-slot><div class="flex astro-BS2KHENP">
+    <div class="md:w-[500px] astro-BS2KHENP"></div>
+    <table class="flex-grow astro-BS2KHENP">
+        <tbody class="astro-BS2KHENP">
+            <tr class="astro-BS2KHENP">
+                <td class="astro-BS2KHENP"> Price</td>
+                <td class="astro-BS2KHENP"> $ 2,190</td>
             </tr>
-            <tr class="astro-7WNEL2FS">
-                <td class="astro-7WNEL2FS">Colors</td>
-                <td class="astro-7WNEL2FS"> Black, Yellow, White</td>
+            <tr class="astro-BS2KHENP">
+                <td class="astro-BS2KHENP">Colors</td>
+                <td class="astro-BS2KHENP"> Black, Yellow, White</td>
             </tr>
-            <tr class="astro-7WNEL2FS">
-                <td class="astro-7WNEL2FS">About</td>
-                <td class="astro-7WNEL2FS">
+            <tr class="astro-BS2KHENP">
+                <td class="astro-BS2KHENP">About</td>
+                <td class="astro-BS2KHENP">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Rutrum consequat risus est sed nulla sed. Ultrices imperdiet
                     fringilla elit eu vitae nunc elementum sagittis.
@@ -188,13 +212,13 @@
 </div>
 
 </astro-slot></div></div></astro-island>
-</section><section class="order-now container mx-auto my-20 bg-black-gray h-[95vh] rounded-2xl text-white astro-5HLS7TLN">
-    <div class="flex flex-col items-center astro-5HLS7TLN">
-        <div class="text-2xl font-medium mt-24 astro-5HLS7TLN">COWBOY 4</div>
-        <h2 class="text-[68px] astro-5HLS7TLN">Mount up, ride on.</h2>
-        <div class="flex items-center astro-5HLS7TLN">
-            <astro-island uid="ysyoL" component-url="/cowboy/ColorSelect.8c2a27bd.js" component-export="default" renderer-url="/cowboy/client.115698f3.js" props="{&quot;class&quot;:[0,&quot;astro-5HLS7TLN&quot;]}" ssr="" client="visible" before-hydration-url="data:text/javascript;charset=utf-8,//[no before-hydration script]" opts="{&quot;name&quot;:&quot;ColorSelect&quot;,&quot;value&quot;:true}" await-children=""><div class="flex justify-center gap-4 px-8 py-4 bg-white/10 rounded-full"><button class="w-10 h-10 p-1 rounded-full border-2 relative border-white"><span class="bg-[#535355] block w-[100%] h-[100%] rounded-full"></span></button><button class="w-10 h-10 p-1 rounded-full border-2 relative border-[#353535]/50"><span class="bg-[#FFF4CC] block w-[100%] h-[100%] rounded-full"></span></button><button class="w-10 h-10 p-1 rounded-full border-2 relative border-[#353535]/50"><span class="bg-[#FFFFFF] block w-[100%] h-[100%] rounded-full"></span></button></div></astro-island>
-            <a href="#" class="bg-white text-black-gray px-12 py-4 rounded-full -ml-2 astro-5HLS7TLN">Order now</a>
+</section><section class="order-now container mx-auto my-20 bg-black-gray h-[95vh] rounded-2xl text-white astro-L56ZMNKT">
+    <div class="flex flex-col items-center text-center astro-L56ZMNKT">
+        <div class="text-2xl font-medium mt-24 astro-L56ZMNKT">COWBOY 4</div>
+        <h2 class="text-[48px] md:text-[68px] astro-L56ZMNKT">Mount up, ride on.</h2>
+        <div class="flex items-center scale-75 md:scale-100 md:mt-5 astro-L56ZMNKT">
+            <astro-island uid="ZbIqfz" component-url="/cowboy/ColorSelect.8c2a27bd.js" component-export="default" renderer-url="/cowboy/client.115698f3.js" props="{&quot;class&quot;:[0,&quot;astro-L56ZMNKT&quot;]}" ssr="" client="visible" before-hydration-url="data:text/javascript;charset=utf-8,//[no before-hydration script]" opts="{&quot;name&quot;:&quot;ColorSelect&quot;,&quot;value&quot;:true}" await-children=""><div class="flex justify-center gap-4 px-8 py-4 bg-white/10 rounded-full"><button class="w-10 h-10 p-1 rounded-full border-2 relative border-white"><span class="bg-[#535355] block w-[100%] h-[100%] rounded-full"></span></button><button class="w-10 h-10 p-1 rounded-full border-2 relative border-[#353535]/50"><span class="bg-[#FFF4CC] block w-[100%] h-[100%] rounded-full"></span></button><button class="w-10 h-10 p-1 rounded-full border-2 relative border-[#353535]/50"><span class="bg-[#FFFFFF] block w-[100%] h-[100%] rounded-full"></span></button></div></astro-island>
+            <a href="#" class="bg-white text-black-gray px-12 py-4 rounded-full -ml-2 astro-L56ZMNKT">Order now</a>
         </div>
     </div>
 </section>
