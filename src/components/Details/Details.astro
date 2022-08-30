@@ -1,13 +1,14 @@
 ---
 import Accordion from "./Accordion";
+import Default from "./Default.astro";
 ---
 
 <section class="container mx-auto mt-16">
     <h2 class="text-h2">Product Details</h2>
 
     <Accordion client:visible name="Key specification" num="16" open>
-        Hello
+        <Default />
     </Accordion>
-    <Accordion client:visible name="Bike" num="8">Hello</Accordion>
-    <Accordion client:visible name="Electronics" num="5">Hello</Accordion>
+    <Accordion client:visible name="Bike" num="8"><Default /></Accordion>
+    <Accordion client:visible name="Electronics" num="5"><Default /></Accordion>
 </section>

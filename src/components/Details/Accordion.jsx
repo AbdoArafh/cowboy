@@ -22,7 +22,7 @@ const Accordion = ({ name, num, open = false, children }) => {
       >
         <div class="flex gap-4 items-center">
           <h3 class="text-xl">{name}</h3>
-          <span class="bg-white/10 py-2 px-1 rounded-lg">{num}</span>
+          <span class="bg-white/10 py-[8px] px-[5px] rounded-lg">{num}</span>
         </div>
         <button
           style={{
@@ -38,7 +38,7 @@ const Accordion = ({ name, num, open = false, children }) => {
           height: isClosed ? "0px" : height,
           transition: "height 0.35s ease",
         }}
-        class="px-12"
+        class="px-12 overflow-hidden"
         ref={bodyRef}
       >
         {children}
