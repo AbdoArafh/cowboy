@@ -1,0 +1,34 @@
+---
+import ColorSelect from "./ColorSelect";
+---
+
+<section
+    class="order-now container mx-auto my-20 bg-black-gray h-[95vh] rounded-2xl text-white"
+>
+    <div class="flex flex-col items-center">
+        <div class="text-2xl font-medium mt-24">COWBOY 4</div>
+        <h2 class="text-[68px]">Mount up, ride on.</h2>
+        <div class="flex items-center">
+            <ColorSelect client:visible />
+            <a
+                href="#"
+                class="bg-white text-black-gray px-12 py-4 rounded-full -ml-2"
+                >Order now</a
+            >
+        </div>
+    </div>
+</section>
+
+<style>
+    .order-now {
+        background-image: url("/assets/bike.png"),
+            radial-gradient(
+                50% 50% at 50% 50%,
+                rgba(255, 255, 255, 0.2) 0%,
+                rgba(0, 0, 0, 0.094) 100%
+            );
+        background-repeat: no-repeat;
+        background-size: 80%;
+        background-position: bottom center;
+    }
+</style>
