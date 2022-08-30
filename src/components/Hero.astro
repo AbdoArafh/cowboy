@@ -1,10 +1,17 @@
-<section class="hero relative bg-black-gray text-white pt-16 min-h-[90vh] flex flex-col items-center">
+<section
+    class="hero relative bg-black-gray text-white pt-16 min-h-[90vh] flex flex-col items-center"
+>
     <div class="text-center z-1">
         <h2 class="text-2xl">COWBOY 4</h2>
-        <h1 class="mt-8 text-[94px] font-medium leading-none">Dream <br>
-            Machine</h1>
+        <h1 class="mt-8 text-[94px] font-medium leading-none">
+            Dream <br />
+            Machine
+        </h1>
     </div>
-    <a class="flex items-center gap-3 mt-16 relative py-2 px-4 rounded-full overflow-hidden" href="#">
+    <a
+        class="flex items-center gap-3 mt-16 relative py-2 px-4 rounded-full overflow-hidden"
+        href="#"
+    >
         <div class="absolute inset-0 bg-white/10 blur-sm opacity-50"></div>
         <img src="/assets/play.svg" alt="" />
         <span>Select in action</span>
@@ -13,8 +20,20 @@
 
 <style>
     .hero {
-        background-image: url("/assets/bike.png"), radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.094) 100%);
+        background-image: url("/assets/bike.png"),
+            radial-gradient(
+                50% 50% at 50% 50%,
+                rgba(255, 255, 255, 0.2) 0%,
+                rgba(0, 0, 0, 0.094) 100%
+            );
         background-repeat: no-repeat;
+        background-size: 150%;
         background-position: bottom center;
+    }
+
+    @media (min-width: 640px) {
+        .hero {
+            background-size: auto;
+        }
     }
 </style>

@@ -63,7 +63,7 @@ const Testimonials = () => {
         <div class="text-8xl font-serif -mt-2">&#8220;</div>
         <p>{reviews[selectedIndex].text}</p>
       </div>
-      <div class="flex gap-8 mt-8 mx-auto">
+      <div class="flex gap-8 mt-8 mx-auto flex-col lg:flex-row">
         {reviews.map((review, i) => (
           <div
             key={i.toString()}

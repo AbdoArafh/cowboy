@@ -5,10 +5,10 @@ import ColorSelect from "./ColorSelect";
 <section
     class="order-now container mx-auto my-20 bg-black-gray h-[95vh] rounded-2xl text-white"
 >
-    <div class="flex flex-col items-center">
+    <div class="flex flex-col items-center text-center">
         <div class="text-2xl font-medium mt-24">COWBOY 4</div>
-        <h2 class="text-[68px]">Mount up, ride on.</h2>
-        <div class="flex items-center">
+        <h2 class="text-[48px] md:text-[68px]">Mount up, ride on.</h2>
+        <div class="flex items-center scale-75 md:scale-100 md:mt-5">
             <ColorSelect client:visible />
             <a
                 href="#"
@@ -28,7 +28,13 @@ import ColorSelect from "./ColorSelect";
                 rgba(0, 0, 0, 0.094) 100%
             );
         background-repeat: no-repeat;
-        background-size: 80%;
+        background-size: auto;
         background-position: bottom center;
+    }
+
+    @media (min-width: 640px) {
+        .order-now {
+            background-size: 80%;
+        }
     }
 </style>
